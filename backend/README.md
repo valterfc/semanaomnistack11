@@ -1,6 +1,52 @@
 # Semana OmniStack 11.0 - RocketSeat
 * Rota / Recurso
 
+## instalar pacotes
+```
+yarn
+```
+
+## startar projeto
+```
+yarn start
+```
+
+## executar testes
+```
+yarn test
+```
+
+### Express
+https://github.com/expressjs/express
+
+### Validador para Express
+https://github.com/arb/celebrate
+
+### Auto restart do node
+https://github.com/remy/nodemon
+
+### Express Cors
+https://github.com/expressjs/cors
+
+### SQL Query Builder
+https://github.com/knex/knex
+
+### Banco de dados
+https://github.com/mapbox/node-sqlite3
+
+### Cross-Env
+https://github.com/kentcdodds/cross-env
+
+### Conexão REST do test
+https://github.com/visionmedia/supertest
+
+### Deploy Node
+https://www.heroku.com/
+https://www.digitalocean.com/
+
+### Deploy Front / React
+https://www.netlify.com/
+
 #### Métodos HTTP:
 * GET: buscar/listar uma informação do back-end
 * POST: criar uma informação no back-end
@@ -63,4 +109,9 @@ npx knex migrate:rollback --all
 
 -- migrations - status
 npx knex migrate:status
+
+...
+
+-- inicializar testes
+npx jest --init
 ```
